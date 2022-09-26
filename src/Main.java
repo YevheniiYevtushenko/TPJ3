@@ -10,6 +10,7 @@ public class Main {
         float d1, d2;
         d2 = (float) ((Math.random() * (9999 - 1)) + 1);
         d1 = d2/(s1*s2);
-
+        System.out.println("s1 = " + s1 + "\ns2 = " + s2 +
+                "\nd1 = " + d1 + "\nd2 = " + d2);
     }
 }
