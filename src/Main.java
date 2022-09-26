@@ -11,6 +11,6 @@ public class Main {
         f1 = f2/(s1*s2);
         System.out.println("s1 = " + s1 + "\ns2 = " + s2 +
                 "\nf1 = " + f1 + "\nf2 = " + f2);
-        //System.out.println("y = " + )
+        System.out.println("y = " + Math.pow(Math.tan(f1), s2)/Math.log(s1));
     }
 }
